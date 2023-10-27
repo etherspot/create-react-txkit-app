@@ -6,7 +6,7 @@
       "@testing-library/user-event": "^13.2.1",
       "web-vitals": "^2.1.0",
       "ethers": "^5.7.2",
-      "@etherspot/transaction-kit": "^0.6.5"
+      "@etherspot/transaction-kit": "^0.6.6"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]
