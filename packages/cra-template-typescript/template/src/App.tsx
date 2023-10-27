@@ -12,7 +12,7 @@ import './App.css';
 import { utils } from 'ethers';
 
 function App() {
-  const etherspotAddress = useWalletAddress('etherspot');
+  const etherspotAddress = useWalletAddress();
   const { estimate, send } = useEtherspotTransactions();
   const [address, setAddress] = useState(
     '0x271Ae6E03257264F0F7cb03506b12A027Ec53B31'
